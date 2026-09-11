@@ -1,0 +1,39 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2023 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[16:11:07.404353] Configured Lic search path (21.01-s002): 5280@uvti_training
+
+Version: 21.18-s082_1, built Tue Jul 18 00:08:41 PDT 2023
+Options: 
+Date:    Tue May 19 16:11:07 2026
+Host:    uvti_training (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (18cores*72cpus*2physical cpus*Intel(R) Xeon(R) Gold 6254 CPU @ 3.10GHz 25344KB) (527709624KB)
+PID:     19879
+OS:      Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+
+[16:11:07.333634] Periodic Lic check successful
+[16:11:07.333640] Feature usage summary:
+[16:11:07.333641] Genus_Synthesis
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (8 seconds elapsed).
+
+WARNING: This version of the tool is 1036 days old.
+@genus:root: 1> which genus
+@genus:root: 2> exit
+
+Lic Summary:
+[16:30:08.076090] Cdslmd servers: uvti_training
+[16:30:08.076104] Feature usage summary:
+[16:30:08.076104] Genus_Synthesis
+
+Normal exit.

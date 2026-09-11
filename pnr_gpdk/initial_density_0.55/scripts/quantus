@@ -1,0 +1,9 @@
+setExtractRCMode -effortLevel high
+setExtractRCMode -engine postRoute
+extractRC
+write_extraction_spec -out_dir SQRC_RUN -rc_corners {rcworst rctypical rcbest}
+
+write_extraction_spec -out_dir SQRC_RUN -rc_corners rctypical
+include qrc_incr.cmd
+qrc -cmd qrc.cmd |& tee sqrc_incr.log
+enable_eco_mode true

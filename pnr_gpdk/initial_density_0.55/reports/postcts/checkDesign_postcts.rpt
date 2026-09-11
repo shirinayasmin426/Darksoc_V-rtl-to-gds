@@ -1,0 +1,93 @@
+**WARN: (IMPREPO-205):	There are 2 Cells with missing PG PIN.
+
+**Info: (IMPSP-2062): Some of the PG shapes may not be colorized properly in this design, users are required to run command colorizePowerMesh before any placement related commands!
+Begin checking placement ... (start mem=9262.5M, init mem=9262.5M)
+*info: Recommended don't use cell = 0           
+*info: Placed = 244334         (Fixed = 43480)
+*info: Unplaced = 0           
+Placement Density:55.54%(782814/1409360)
+Placement Density (including fixed std cells):56.44%(811905/1438452)
+Finished checkPlace (total: cpu=0:00:05.6, real=0:00:02.0; vio checks: cpu=0:00:04.8, real=0:00:02.0; mem=9230.5M)
+Design: darksocv
+
+------ Design Summary:
+Total Standard Cell Number   (cells) : 244334
+Total Block Cell Number      (cells) : 0
+Total I/O Pad Cell Number    (cells) : 0
+Total Standard Cell Area     ( um^2) : 811905.61
+Total Block Cell Area        ( um^2) : 0.00
+Total I/O Pad Cell Area      ( um^2) : 0.00
+
+------ Design Statistics:
+
+Number of Instances            : 244334
+Number of Non-uniquified Insts : 244299
+Number of Nets                 : 202343
+Average number of Pins per Net : 4.40
+Maximum number of Pins in Net  : 96
+
+------ I/O Port summary
+
+Number of Primary I/O Ports    : 104
+Number of Input Ports          : 35
+Number of Output Ports         : 69
+Number of Bidirectional Ports  : 0
+Number of Power/Ground Ports   : 0
+Number of Floating Ports                     *: 0
+Number of Ports Connected to Multiple Pads   *: 0
+Number of Ports Connected to Core Instances   : 104
+**WARN: (IMPREPO-202):	There are 104 Ports connected to core instances.
+
+------ Design Rule Checking:
+
+Number of Output Pins connect to Power/Ground *: 0
+Number of Insts with Input Pins tied together ?: 1
+Number of TieHi/Lo term nets not connected to instance's PG terms ?: 0
+Number of Input/InOut Floating Pins            : 0
+Number of Output Floating Pins                 : 0
+Number of Output Term Marked TieHi/Lo         *: 0
+
+**WARN: (IMPREPO-216):	There are 1 Instances with input pins tied together.
+Number of nets with tri-state drivers          : 0
+Number of nets with parallel drivers           : 0
+Number of nets with multiple drivers           : 0
+Number of nets with no driver (No FanIn)       : 0
+Number of Output Floating nets (No FanOut)     : 383
+Number of High Fanout nets (>50)               : 1226
+**WARN: (IMPREPO-227):	There are 1226 High Fanout nets (>50).
+**WARN: (IMPREPO-213):	There are 104 I/O Pins connected to Non-IO Insts.
+Checking for any assigns in the netlist...
+  No assigns found.
+Checking routing tracks.....
+Checking other grids.....
+Checking FINFET Grid is on Manufacture Grid.....
+
+Checking core/die box is on Grid.....
+
+Checking snap rule ......
+
+Checking Row is on grid......
+
+INFO (IMPFP-7241): Tech site CoreSite has no symmetry Y. 	Current symmetry setting : isSymmetryR90 false; isSymmetryX : false; isSymmetryY : false;
+
+Checking AreaIO row.....
+Checking routing blockage.....
+Checking components.....
+Checking constraints (guide/region/fence).....
+Checking groups.....
+Checking Ptn Core Box.....
+
+Checking Preroutes.....
+No. of regular pre-routes not on tracks : 0 
+ Design check done.
+Report saved in file checkDesign/darksocv.main.htm.ascii
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPREPO-227          1  There are %d High Fanout nets (>50).     
+WARNING   IMPREPO-202          1  There are %d Ports connected to core ins...
+WARNING   IMPREPO-205          1  There are %d Cells with missing PG PIN.  
+WARNING   IMPREPO-213          1  There are %d I/O Pins connected to Non-I...
+WARNING   IMPREPO-216          1  There are %d Instances with input pins t...
+*** Message Summary: 5 warning(s), 0 error(s)
+

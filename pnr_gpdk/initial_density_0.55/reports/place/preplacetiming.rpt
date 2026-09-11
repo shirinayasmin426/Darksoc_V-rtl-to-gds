@@ -1,0 +1,52 @@
+*** timeDesign #2 [begin] () : totSession cpu/real = 0:08:35.3/0:48:19.4 (0.2), mem = 4176.2M
+Multithreaded Timing Analysis is initialized with 8 threads
+
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Setting High Fanout Nets ( > 100 ) as ideal temporarily for -prePlace option
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+Starting delay calculation for Setup views
+AAE_INFO: opIsDesignInPostRouteState() is 0
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: darksocv
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (8 T). (MEM=4270.3)
+Total number of fetched objects 188353
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+End delay calculation. (MEM=4788.15 CPU=0:00:20.5 REAL=0:00:04.0)
+End delay calculation (fullDC). (MEM=4788.15 CPU=0:00:24.8 REAL=0:00:06.0)
+*** Done Building Timing Graph (cpu=0:00:38.7 real=0:00:09.0 totSessionCpu=0:09:21 mem=4788.1M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ func_slow_125_1v0 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  2.000  |  2.000  |  4.764  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|  2e+05  |  2e+05  |   41    |
++--------------------+---------+---------+---------+
+
+Density: 55.663%
+------------------------------------------------------------------
+Set Using Default Delay Limit as 1000.
+Resetting back High Fanout Nets as non-ideal
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Reported timing to dir ./timingReports
+Total CPU time: 53.05 sec
+Total Real time: 15.0 sec
+Total Memory Usage: 4783.621094 Mbytes

@@ -1,0 +1,13 @@
+set hdl "
+
+darkbridge.v \
+darkcache.v \
+darkio.v \
+config.vh \
+darkmac.v \
+darkpll.v \
+darkram.v \
+darkriscv.v \
+darksocv.v \
+darkspi.v \
+darkuart.v "

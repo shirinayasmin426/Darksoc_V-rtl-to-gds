@@ -1,0 +1,11 @@
+set hdl "/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/config.vh \
+/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/darksocv.v \
+/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/darkbridge.v \
+/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/darkcache.v \
+/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/darkio.v \
+/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/darkmac.v \
+/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/darkpll.v \
+/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/darkram.v \
+/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/darkriscv.v \
+/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/darkspi.v \
+/pnr_training/WORK_BATCH1/sayem_29/rtls_clone_20260519/rtl/darkuart.v "

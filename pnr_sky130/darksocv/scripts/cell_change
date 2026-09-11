@@ -1,0 +1,4 @@
+selectInstByCellName MX4X1
+dbGet selected.name
+foreach inst [dbGet selected.name ] {puts $inst}
+ ecoChangeCell -inst g1261258 -cell MX4X1_LP

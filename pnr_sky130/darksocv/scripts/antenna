@@ -1,0 +1,18 @@
+foreach net $NETS {
+deselectAll
+selectNet $net
+puts " [dbGet selected.insTerms.name ]"
+# just get the output term
+#add diode to those term
+#
+grep -oP 'PIN:\s*\K\S+' scripts/darkram.viols.drc | sort -u > pins_unique.txt
+awk '{print "attachDiode -diodeCell ANTENNA -pin {" $1 " Y}"}' pins_unique.txt > new_diode_fix.tcl
+:%s/^\(attach.*\)$/catch { \1 } /
+
+
+:%s/^\(eco.*\)$/catch { \1 } /
+
+
+grep -oP 'PIN:\s*\K\S+\s+\(\S+\)\s+\S+' scripts/darkram.viols.drc | sort -u > violations_parsed.txt
+awk '{print $1, $3}' violations_parsed.txt > inst_pin_list.txt
+
