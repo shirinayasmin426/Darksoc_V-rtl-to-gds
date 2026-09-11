@@ -1,0 +1,21 @@
+FILE /pnr_training/WORK_BATCH1/shiri_41/pnrdark/darkram2/output/darkram.gds
+PRIME darkram
+SNAP 0
+PLACE_MIRROR 0
+PLACE_ANGLE 0
+PLACE_MAG 1.0
+PLACE_X 0.0
+PLACE_Y 0.0
+ENDPLACES
+
+FILE darkram.fill_aref.gds.gz
+PRIME darkram_FILL
+SNAP 0
+PLACE_MIRROR 0
+PLACE_ANGLE 0
+PLACE_MAG 1.0
+PLACE_X 0.0
+PLACE_Y 0.0
+ENDPLACES
+
+ENDFILES
