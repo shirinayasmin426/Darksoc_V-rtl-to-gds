@@ -1,0 +1,15 @@
+set svh " \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_ahb.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_arch_description.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_arch_types.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_csr.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_dm.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_hdu.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_ipic.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_memif.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_riscv_isa_decoding.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_scu.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_search_ms1.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_tapc.svh \
+/pnr_training/WORK_BATCH1/shiri_41/scr1/src/includes/scr1_tdu.svh "
+

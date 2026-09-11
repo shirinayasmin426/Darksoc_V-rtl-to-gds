@@ -1,0 +1,30 @@
+Version 2.6
+Micron 1000
+9
+2 43 5 0 0 0 0 0 60 10 1 0 1 481120 45500 482120 46500
+imem2core_req_ack_i
+Actual:	1120.457000	Required:	400.000000	Type:	Antenna Side Area Ratio # 1120457 400000 50 0 PIN: i_pipe_top/i_pipe_ifu/FE_ESOC201_imem2core_req_ack_i (DLY1X1) A #LINEWRAPPER#LAYER met5: Area(109.9680) S.Area(176.4720) G.Area(0.1575) D.Area(0.0000) Pro.D.Area(0.0000)#LINEWRAPPER#VIO: S.PAR / Ratio (1120.4572 / 400.0000)#LINEWRAPPER#
+2 43 2 0 0 0 0 0 60 10 1 0 1 272280 99320 273280 100320
+FE_OFN125_core_rst_n_o
+Actual:	403.355000	Required:	400.000000	Type:	Antenna Side Area Ratio # 403355 400000 50 0 PIN: i_pipe_top/i_pipe_mprf/FE_OFC3_core_rst_n_o (CLKBUFX2) A #LINEWRAPPER#LAYER met2: Area(12.7871) S.Area(63.5285) G.Area(0.1575) D.Area(0.0000) Pro.D.Area(0.0000)#LINEWRAPPER#VIO: S.PAR / Ratio (403.3556 / 400.0000)#LINEWRAPPER#
+2 43 2 0 0 0 0 0 60 10 1 0 1 115420 234560 116420 235560
+i_pipe_top/i_pipe_mprf/FE_OFN127_core_rst_n_o
+Actual:	446.755000	Required:	400.000000	Type:	Antenna Side Area Ratio # 446755 400000 50 0 PIN: i_pipe_top/i_pipe_mprf/FE_OFC19_core_rst_n_o (CLKBUFX2) A #LINEWRAPPER#LAYER met2: Area(14.1392) S.Area(70.3640) G.Area(0.1575) D.Area(0.0000) Pro.D.Area(0.0000)#LINEWRAPPER#VIO: S.PAR / Ratio (446.7556 / 400.0000)#LINEWRAPPER#
+2 43 4 0 0 0 0 0 60 10 1 0 1 464560 666960 465560 667960
+core_fuse_mhartid_i[13]
+Actual:	510.899000	Required:	400.000000	Type:	Antenna Side Area Ratio # 510899 400000 50 0 PIN: i_pipe_top/i_pipe_csr/g23282 (AOI22X1) A0 #LINEWRAPPER#LAYER met4: Area(27.7546) S.Area(144.8400) G.Area(0.2835) D.Area(0.0000) Pro.D.Area(0.0000)#LINEWRAPPER#VIO: S.PAR / Ratio (510.8995 / 400.0000)#LINEWRAPPER#
+2 43 4 0 0 0 0 0 60 10 1 0 1 307240 649480 308240 650480
+dm_pbuf_instr[20]
+Actual:	531.583000	Required:	400.000000	Type:	Antenna Side Area Ratio # 531583 400000 50 0 PIN: i_dm/g32911 (INVX1) A #LINEWRAPPER#LAYER met4: Area(29.6322) S.Area(150.7040) G.Area(0.2835) D.Area(0.0000) Pro.D.Area(0.0000)#LINEWRAPPER#VIO: S.PAR / Ratio (531.5838 / 400.0000)#LINEWRAPPER#
+2 43 4 0 0 0 0 0 60 10 1 0 1 259860 720780 260860 721780
+core_irq_lines_i[10]
+Actual:	435.149000	Required:	400.000000	Type:	Antenna Side Area Ratio # 435149 400000 50 0 PIN: i_pipe_top/i_pipe_ipic/FE_ESOC25_core_irq_lines_i_10 (DLY4X4) A #LINEWRAPPER#LAYER met4: Area(13.5358) S.Area(68.5360) G.Area(0.1575) D.Area(0.0000) Pro.D.Area(0.0000)#LINEWRAPPER#VIO: S.PAR / Ratio (435.1492 / 400.0000)#LINEWRAPPER#
+2 43 4 0 0 0 0 0 60 10 1 0 1 206500 739640 207500 740640
+core_irq_lines_i[15]
+Actual:	416.101000	Required:	400.000000	Type:	Antenna Side Area Ratio # 416101 400000 50 0 PIN: i_pipe_top/i_pipe_ipic/FE_ESOC33_core_irq_lines_i_15 (DLY4X4) A #LINEWRAPPER#LAYER met4: Area(12.1998) S.Area(65.5360) G.Area(0.1575) D.Area(0.0000) Pro.D.Area(0.0000)#LINEWRAPPER#VIO: S.PAR / Ratio (416.1016 / 400.0000)#LINEWRAPPER#
+2 42 37 0 1 0 0 0 60 10 1 0 1 73560 697780 74560 698780
+i_scu/scu_mode_ff[hdu_rst_bhv]
+Actual:	8.126000	Required:	6.000000	Type:	Antenna Area Ratio # 8126 6000 49 0 PIN: i_scu/g2807 (MX4X1) B #LINEWRAPPER#LAYER via4: Area(1.2800) S.Area(0.0000) G.Area(0.1575) D.Area(0.0000) Pro.D.Area(0.0000)#LINEWRAPPER#VIO: PAR / Ratio (8.1270 / 6.0000)#LINEWRAPPER#
+2 43 3 0 0 0 0 0 60 10 1 0 1 467320 412580 468320 413580
+i_pipe_top/mprf2exu_rs1_data[8]
+Actual:	523.739000	Required:	400.000000	Type:	Antenna Side Area Ratio # 523739 400000 50 0 PIN: i_pipe_top/i_pipe_exu/g17466 (NAND2X1) B #LINEWRAPPER#LAYER met3: Area(27.2240) S.Area(148.4800) G.Area(0.2835) D.Area(0.0000) Pro.D.Area(0.0000)#LINEWRAPPER#VIO: S.PAR / Ratio (523.7390 / 400.0000)#LINEWRAPPER#

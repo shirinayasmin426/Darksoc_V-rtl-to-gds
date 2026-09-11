@@ -1,0 +1,13 @@
+set hdl "\
+../../rtl/config.vh \
+../../rtl/darkbridge.v \
+../../rtl/darkcache.v \
+../../rtl/darkio.v \
+../../rtl/darkmac.v \
+../../rtl/darkpll.v \
+../../rtl/darkram.v \
+../../rtl/darkriscv.v \
+../../rtl/darksocv.v \
+../../rtl/darkspi.v \
+../../rtl/darkuart.v"
+

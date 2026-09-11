@@ -1,0 +1,5 @@
+set lefs " \
+/pdk/gpdk045/gsclib045_all_v4.8/gsclib045/lef/gsclib045_tech.lef \
+ /pdk/gpdk045/gsclib045_all_v4.8/gsclib045/lef/gsclib045_macro.lef \
+ /pdk/gpdk045/gsclib045_all_v4.8/gsclib045_hvt/lef/gsclib045_hvt_macro.lef \
+ /pdk/gpdk045/gsclib045_all_v4.8/gsclib045_lvt/lef/gsclib045_lvt_macro.lef "

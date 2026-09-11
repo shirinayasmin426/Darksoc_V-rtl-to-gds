@@ -1,0 +1,4 @@
+set libs " \
+/pdk/gpdk045/gsclib045_all_v4.8/gsclib045/timing/slow_vdd1v0_basicCells.lib \
+/pdk/gpdk045/gsclib045_all_v4.8/gsclib045_hvt/timing/slow_vdd1v0_basicCells_hvt.lib \
+/pdk/gpdk045/gsclib045_all_v4.8/gsclib045_lvt/timing/slow_vdd1v0_basicCells_lvt.lib "
