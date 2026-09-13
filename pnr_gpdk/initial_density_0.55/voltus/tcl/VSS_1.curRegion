@@ -1,0 +1,6 @@
+##################################################
+#Format: LABEL name NET netname AREA x1 y1 x2 y2 LAYER layername <CURRENT value | PWL (t1 i1 t2 i2...)> INTRINSIC_CAP value LOADING_CAP value
+#Unit: current mA, cap pf, time ns, coordinate um
+##################################################
+
+label lab1 net VSS area 2.5505 0.3735 349.514 377.865 layer Metal1 current 1000

@@ -1,0 +1,7 @@
+SOFTINCLUDE $(inst_root_with:share/cdssetup/cds.lib)/share/cdssetup/cds.lib
+DEFINE gpdk090 ../data/oa_data/gpdk090
+DEFINE gsclib090 ../data/oa_data/gsclib090
+DEFINE lp ../data/oa_data/lp
+DEFINE pll ../data/oa_data/pll
+DEFINE decap ../data/oa_data/decap
+DEFINE rakLib ../data/oa_data/rakLib
